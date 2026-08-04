@@ -12,7 +12,7 @@
 
 <div align="center">
   <br>
-  <a href="https://ksef2.stacking.me/mcp/intro/" title="ksef2 MCP documentation">
+  <a href="https://docs.stacking.me/ksef2/mcp/intro/" title="ksef2 MCP documentation">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/stacking-hq/ksef2-mcp/main/docs/assets/ksef2-mcp-light-logo.png">
       <img src="https://raw.githubusercontent.com/stacking-hq/ksef2-mcp/main/docs/assets/ksef2-mcp-dark-logo.png" alt="ksef2 MCP" width="460">
@@ -84,8 +84,8 @@ to the SDK.
 
 ## Documentation
 
-- Online docs: <https://ksef2.stacking.me/mcp/intro/>
-- SDK docs: <https://ksef2.stacking.me/sdk/intro/>
+- Online docs: <https://docs.stacking.me/ksef2/mcp/intro/>
+- SDK docs: <https://docs.stacking.me/ksef2/sdk/getting-started/overview/>
 - SDK repository: [`stacking-hq/ksef2`](https://github.com/stacking-hq/ksef2)
 
 ## Development

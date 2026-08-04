@@ -1,0 +1,61 @@
+---
+title: KSeF2 MCP
+description: MCP server documentation scaffold for KSeF2.
+---
+
+import logoDark from './assets/ksef2-mcp-dark-logo.png';
+import logoLight from './assets/ksef2-mcp-light-logo.png';
+
+<div className="ksef2-product-logo" role="img" aria-label="KSeF2 MCP">
+  <img
+    className="ksef2-product-logo__image ksef2-product-logo__image--light"
+    src={logoLight.src}
+    alt=""
+    width="392"
+    aria-hidden="true"
+  />
+  <img
+    className="ksef2-product-logo__image ksef2-product-logo__image--dark"
+    src={logoDark.src}
+    alt=""
+    width="392"
+    aria-hidden="true"
+  />
+</div>
+
+<style>{`
+  .ksef2-product-logo {
+    position: relative;
+    width: min(392px, 100%);
+    aspect-ratio: 392 / 88;
+    margin: 0 0 1.5rem;
+  }
+
+  .ksef2-product-logo__image {
+    display: block;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: left center;
+  }
+
+  .ksef2-product-logo__image--light {
+    opacity: 0;
+  }
+
+  :root[data-theme='dark'] .ksef2-product-logo__image--light {
+    opacity: 1;
+  }
+
+  :root[data-theme='dark'] .ksef2-product-logo__image--dark {
+    opacity: 0;
+  }
+`}</style>
+
+KSeF2 MCP is an MCP server built on top of the `ksef2` Python SDK.
+
+The MCP transport and integration shape are still being decided. Use the
+[SDK documentation](https://docs.stacking.me/ksef2/sdk/getting-started/overview/)
+for the stable KSeF2 workflow documentation.
