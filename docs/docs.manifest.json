@@ -1,0 +1,29 @@
+{
+  "product": "mcp",
+  "slug": "mcp",
+  "name": "KSeF2 MCP",
+  "name_pl": "KSeF2 MCP",
+  "min_pages": 1,
+  "sidebar": {
+    "link": "intro.mdx",
+    "categories": [
+      {
+        "id": "mcp",
+        "label": "MCP",
+        "translations": {
+          "pl": "MCP"
+        },
+        "kind": "explanation",
+        "items": [
+          {
+            "label": "Overview",
+            "translations": {
+              "pl": "Wprowadzenie"
+            },
+            "path": "intro.mdx"
+          }
+        ]
+      }
+    ]
+  }
+}
